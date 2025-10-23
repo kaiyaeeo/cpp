@@ -9,11 +9,11 @@ int main()
     cin>>nilai;
 
     //conditional digunakan untuk mengecek beberapa kondisi secara berurutan
-    if (nilai >= 90) { //if dicek pertama kali, jika benar, maka blok kode yang ada dalam if akan dieksekusi
+    if (nilai >= 90) { //if dicek pertama kali, jika kondisi benar, blok kode akan dijalankan
         cout<<"A";
-    } else if ((nilai < 90) && (nilai >= 70)) { //jika kondisi if tidak terpenuhi, selanjutnya program akan mengecek kondisi else if, dan jika benar maka blok kode dalam else if akan dieksekusi
+    } else if ((nilai < 90) && (nilai >= 70)) { //jika kondisi if tidak terpenuhi, selanjutnya program akan mengecek kondisi else if, dan jika benar, maka blok kode else if akan dijalankan
         cout<<"B";    
-    } else { //jika semua kondisi sebelumnya tidak terpenuhi, maka blok else akan dieksekusi secara langsung oleh program
+    } else { //jika semua kondisi sebelumnya tidak terpenuhi, maka blok kode else dijalankan
         cout<<"E";
     } "\n";
 
@@ -29,7 +29,7 @@ int main()
     //if di dalam if
     bool shiftD = true;
 
-    if (shiftD) {
+    if (shiftD) { //jika kondisi if benar, maka if else yang berada dalam blok kode if akan dijalankan dan program akan mencetak hasil pengecekan kondisi if else yang ada dalam blok kode
         if (nilai > 70) {
             cout<< "Selamat anda tidak remidi";
         } else {
@@ -67,3 +67,4 @@ int main()
     return 0;
 
 }
+
