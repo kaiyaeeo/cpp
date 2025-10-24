@@ -16,6 +16,8 @@ int main()
     } else { //jika semua kondisi sebelumnya tidak terpenuhi, maka blok kode else dijalankan
         cout<<"E";
     } "\n";
+    /* If dapat ditulis dalam kode tanpa harus disertai dengan else ketika dalam program diperlukan banyak kondisi berbeda yang harus dijalankan sekaligus 
+    dengan setiap kondisi memiliki blok kode yang berbeda-beda pula. Contohnya seperti pada kode program ternak lele yang ada pada repositories semester-1 */
 
     //short hand if else
     //bentuk lain untuk menyatakan if, else if, else secara singkat
@@ -67,4 +69,5 @@ int main()
     return 0;
 
 }
+
 
