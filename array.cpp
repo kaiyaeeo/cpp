@@ -52,5 +52,15 @@ int main ()
     //Dalam C++, ukuran dallam Array adalah tetap, tidak bisa ditambah ataupun dihapus
     //Jika ingin melakukan operasi penambahan, pengurangan, ataupun pemodifikasian elemen, maka gunakan vektor
 
+    //Array Size
+    cout<< sizeof(angka); //untuk menampilkan size array dalam tipe bytes
+    int panjang_array = sizeof(angka) / sizeof(angka[0]); //untuk menampilkan berapa banyak jumlah elemen dalam array
+    cout<< "\n" << panjang_array << "\n"; 
+
+    for (int i=0; i<sizeof(angka) / sizeof(angka[0]); i++) {
+        cout<< angka[i] << " ";
+    }
+
     return 0;
+
 }
